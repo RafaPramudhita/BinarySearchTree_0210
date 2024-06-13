@@ -131,7 +131,11 @@ int main() {
             break;
         }
 
-        
+        case '3': {
+            x.preorder(x.ROOT);
+            break;
+        }
+       
         }
     }
 }
