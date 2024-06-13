@@ -126,6 +126,11 @@ int main() {
             break;
         }
 
+        case '2': {
+            x.inorder(x.ROOT);
+            break;
+        }
+
         
         }
     }
