@@ -88,6 +88,16 @@ public:
         }
     }
 
-    
+    void postorder(Node* ptr) {
+        // Performs the postorder travelsal of the tree
+        if (ROOT == nullptr) 
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        postorder(ptr->leftchild);
+        postorder(ptr->rightchild);
+        cout << ptr->info << " ";
+    }
 };
 
