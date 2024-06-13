@@ -143,7 +143,9 @@ int main() {
             return 0;
         }
 
-        
+        default:
+            cout << "Pilihan tidak ditemukan" << endl;
+            break;
         }
     }
 }
